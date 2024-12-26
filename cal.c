@@ -12,8 +12,15 @@ int main() {
     scanf("%c", &op);
 
     // Read the two numbers
+<<<<<<< HEAD
     printf("Enter two operands: ");
     scanf("%lf %lf", &a, &b);
+=======
+    printf("Enter first val of A: ");
+    scanf("%lf", &a);
+     printf("Enter secound val of B: ");
+    scanf("%lf", &b);
+>>>>>>> dev
     
     switch (op) {
     case '+':
